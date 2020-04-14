@@ -106,7 +106,7 @@ RiaDefines::WellPathComponentType RimValveTemplate::type() const
 //--------------------------------------------------------------------------------------------------
 void RimValveTemplate::setType( RiaDefines::WellPathComponentType type )
 {
-    CAF_ASSERT( type == RiaDefines::ICD || type == RiaDefines::AICD || RiaDefines::ICV );
+    CAF_ASSERT( type == RiaDefines::ICD || type == RiaDefines::AICD || type == RiaDefines::ICV );
 
     m_type = type;
 }
